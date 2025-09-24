@@ -61,11 +61,17 @@ namespace IntroToGenericCollections
 
             // List
 
+            // PROS - dynamic in size
+            // PROS - no boxing/unboxing
+            // PROS - type-safe
+
             List<int> myList = new List<int>();
             myList.Add(10);
             myList.Add(20);
             myList.Add(30);
             myList.Add(40);
+
+            //myList.Add("hello");
 
             sum = 0;
 
