@@ -65,11 +65,16 @@ namespace IntroToGenericCollections
             // PROS - no boxing/unboxing
             // PROS - type-safe
 
-            List<int> myList = new List<int>();
+            List<int> myList = new List<int>(3);
+
             myList.Add(10);
+
             myList.Add(20);
             myList.Add(30);
             myList.Add(40);
+            Console.WriteLine(myList.Capacity);
+
+            myList.Add(50);
 
             //myList.Add("hello");
 
